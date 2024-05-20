@@ -1,0 +1,325 @@
+/* web */
+@media only screen and (min-width: 1025px) {
+  .aboutClient {
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+  .missionFlexTab {
+    display: flex;
+  }
+  .mission1 {
+    margin-left: 2rem;
+  }
+  .mission2 {
+    flex: 1;
+  }
+  .mission3 {
+    flex: 1;
+  }
+  .clientImgTop {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10rem;
+    row-gap: 2rem;
+  }
+  .clientText {
+    padding-top: 2rem;
+    font-weight: 700;
+  }
+  .tabletWrapperFull {
+    display: none;
+  }
+  .gridWebMode {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .certificationContainer {
+    display: none;
+  }
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .missionContainer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .missionWrapper {
+    flex-direction: column;
+    /* margin-left: 5vw; */
+    /* margin-right: 5vw; */
+  }
+  .missionFlexTab {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .mission1 {
+    width: auto;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-bottom: 2rem;
+    padding-right: 1.5rem;
+  }
+  .mission1 span {
+    font-size: 14px;
+  }
+
+  .mission2 {
+    width: auto;
+    /* height: 65vh; */
+    /* padding-left: 2rem;
+    padding-right: 2rem; */
+    /* position: relative;
+    top: 18rem; */
+
+    /* position: absolute;
+    top: 60rem; */
+    /* position: relative; */
+    /* top: 16rem; */
+    /* padding-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 3rem; */
+  }
+  .missTop {
+    padding-top: 2rem;
+  }
+
+  .missBottom {
+    padding-bottom: 2rem;
+  }
+
+  /* .mission3 {
+    position: absolute;
+    top: 44rem;
+  } */
+  .missTop span {
+    font-size: 14px !important;
+  }
+  .missBottom span {
+    font-size: 14px !important;
+  }
+  .mission3 img {
+    height: 37vh;
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+  }
+  .clientWrapper {
+    /* margin-top: 45rem; */
+  }
+  .clientContainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .aboutClient {
+    flex-direction: column;
+  }
+  .clientText {
+    margin-top: 6rem;
+    text-align: center;
+  }
+  .clientImages {
+    margin-bottom: 3rem;
+  }
+  .flexClient {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flex-itemImg {
+    flex: 0 0 calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .clientImgTop img {
+    width: 65% !important;
+  }
+
+  .workWithTop {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .workWithBottom {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .tabletWrapperFull {
+    display: none;
+  }
+  .certificationContainerWeb {
+    display: none;
+  }
+  .certificationContainer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .certTent {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .certificateWrapper {
+    flex-direction: column-reverse;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .certificateLeft {
+    padding-left: inherit;
+    padding-top: unset;
+  }
+  .certTent span {
+    font-size: 14px;
+  }
+  .certTent h2 {
+    font-size: 34px;
+  }
+  .certificateLeft p {
+    width: auto !important;
+  }
+
+  .tabCert {
+    display: none;
+  }
+}
+
+/* Tablet mode */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .missionContainer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .missionWrapper {
+    flex-direction: column;
+  }
+  .missionFlexTab {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .mission1 {
+    width: auto;
+    padding-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+  }
+  .mission1 span {
+    font-size: 18px;
+  }
+  .mission1 h2 {
+    font-size: 46px;
+  }
+
+  .missionContent p {
+    font-size: 18px;
+  }
+  .mission2 {
+    width: auto;
+  }
+
+  .mobileVision h3 {
+    font-size: 28px;
+  }
+  .missTop span {
+    font-size: 16px !important;
+  }
+
+  .mobileMission h3 {
+    font-size: 28px;
+  }
+  .missBottom span {
+    font-size: 16px !important;
+  }
+
+  .mission3 img {
+    height: 37vh;
+    object-fit: cover;
+    aspect-ratio: 16 / 6;
+  }
+  .clientWrapper {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+  }
+  .webWrapperFull {
+    display: none;
+  }
+  .clientContainer {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .aboutClient {
+    flex-direction: column;
+  }
+  .gridFlow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .clientText {
+    /* margin-top: 6rem; */
+    text-align: center;
+    font-size: 3rem;
+  }
+  .clientImages {
+    margin-bottom: 3rem;
+  }
+  .flexClient {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flex-itemImg {
+    flex: 0 0 calc(33.33% - 1rem);
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .flex-itemImg img {
+    width: 60% !important;
+  }
+
+  .textWork h2 {
+    font-size: 3rem;
+  }
+  .certificationContainer {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .certTent {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .certTent span {
+    font-size: 2rem;
+  }
+
+  .certificateWrapper {
+    flex-direction: column-reverse;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .certificateLeft {
+    padding-left: inherit;
+    padding-top: unset;
+  }
+  .certificateLeft p {
+    /* text-align: center; */
+    width: auto !important;
+    font-size: 1.3rem;
+    /* padding-bottom: 1.5rem; */
+  }
+
+  .certificateRight img {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .certificationContainerWeb,
+  .mobileCert {
+    display: none;
+  }
+}

@@ -1,0 +1,335 @@
+@media only screen and (max-width: 600px) {
+  .prowrapper {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+  }
+  .topProjectCont {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  .leftProjectCont h2 {
+    color: #011877;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    /* letter-spacing: 0.3rem; */
+  }
+  .rightProjectCont {
+    display: flex;
+    align-items: center;
+    /* gap: 1rem; */
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .rightProjectCont img {
+    width: 4rem;
+  }
+  .rightSemiPro h3 {
+    color: #d33333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .proImgSlider {
+    display: flex;
+  }
+  .projectDescription {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    border: 3px solid #001878;
+    margin-top: 3rem;
+    border-radius: 5px;
+    padding: 2rem;
+  }
+  .projectDescription h2 {
+    color: #d33333;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .projectDescription span {
+    font-weight: normal;
+    color: black;
+  }
+  .projectDescList ol {
+    list-style-type: disc;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    line-height: 1.9rem;
+  }
+  .projectDescList {
+  }
+
+  .slider-image {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add margin between images */
+    padding-left: 1.5rem;
+  }
+
+  /* Styling for the navigation arrows */
+  .custom-prev-arrow,
+  .custom-next-arrow {
+    width: 50px; /* Set width of arrows */
+    height: 50px; /* Set height of arrows */
+    background-color: rgba(0, 0, 0, 0.5); /* Set background color */
+    position: absolute; /* Position arrows relative to slider */
+    top: 50%; /* Align arrows vertically in the middle */
+    transform: translateY(-50%); /* Adjust vertical position */
+    z-index: 1; /* Ensure arrows appear above images */
+    cursor: pointer; /* Change cursor on hover */
+  }
+
+  .custom-prev-arrow {
+    left: 0; /* Align prev arrow to the left */
+  }
+
+  .custom-next-arrow {
+    right: 0; /* Align next arrow to the right */
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .prowrapper {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+  }
+  .topProjectCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
+  }
+  .leftProjectCont h2 {
+    color: #011877;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 2rem;
+  }
+  .rightProjectCont {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .rightProjectCont img {
+    width: 4rem;
+  }
+  .rightSemiPro h3 {
+    color: #d33333;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .proImgSlider {
+    display: flex;
+  }
+  .projectDescription {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    border: 3px solid #001878;
+    margin-top: 3rem;
+    border-radius: 5px;
+    padding: 2rem;
+  }
+  .projectDescription h2 {
+    color: #d33333;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .projectDescription span {
+    font-weight: normal;
+    color: black;
+  }
+  .projectDescList ol {
+    list-style-type: disc;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    line-height: 1.9rem;
+  }
+  .projectDescList {
+  }
+
+  .slider-image {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add margin between images */
+    padding-left: 1.5rem;
+  }
+
+  /* Styling for the navigation arrows */
+  .custom-prev-arrow,
+  .custom-next-arrow {
+    width: 50px; /* Set width of arrows */
+    height: 50px; /* Set height of arrows */
+    background-color: rgba(0, 0, 0, 0.5); /* Set background color */
+    position: absolute; /* Position arrows relative to slider */
+    top: 50%; /* Align arrows vertically in the middle */
+    transform: translateY(-50%); /* Adjust vertical position */
+    z-index: 1; /* Ensure arrows appear above images */
+    cursor: pointer; /* Change cursor on hover */
+  }
+
+  .custom-prev-arrow {
+    left: 0; /* Align prev arrow to the left */
+  }
+
+  .custom-next-arrow {
+    right: 0; /* Align next arrow to the right */
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .prowrapper {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+  }
+  .topProjectCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2.5rem;
+  }
+  .leftProjectCont h2 {
+    color: #011877;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+  }
+  .rightProjectCont {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .rightProjectCont img {
+    width: 5rem;
+  }
+  .rightSemiPro h3 {
+    color: #d33333;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+  }
+  .proImgSlider {
+    display: flex;
+  }
+  .projectDescription {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    border: 3px solid #001878;
+    margin-top: 3rem;
+    border-radius: 5px;
+    padding: 2rem;
+  }
+  .projectDescription h2 {
+    color: #d33333;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  .projectDescription span {
+    font-weight: normal;
+    color: black;
+  }
+  .projectDescList ol {
+    list-style-type: disc;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    line-height: 1.9rem;
+  }
+  .projectDescList {
+  }
+
+  .slider-image {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add margin between images */
+    padding-left: 1.5rem;
+  }
+
+  /* Styling for the navigation arrows */
+  .custom-prev-arrow,
+  .custom-next-arrow {
+    width: 50px; /* Set width of arrows */
+    height: 50px; /* Set height of arrows */
+    background-color: rgba(0, 0, 0, 0.5); /* Set background color */
+    position: absolute; /* Position arrows relative to slider */
+    top: 50%; /* Align arrows vertically in the middle */
+    transform: translateY(-50%); /* Adjust vertical position */
+    z-index: 1; /* Ensure arrows appear above images */
+    cursor: pointer; /* Change cursor on hover */
+  }
+
+  .custom-prev-arrow {
+    left: 0; /* Align prev arrow to the left */
+  }
+
+  .custom-next-arrow {
+    right: 0; /* Align next arrow to the right */
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+    z-index: 10;
+    width: 3rem;
+  }
+
+  .swiper-button-prev .arrow,
+  .swiper-button-next .arrow {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px; /* size of arrow */
+    height: 50px; /* size of arrow */
+    border-radius: 50%;
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.5
+    ); /* transparent rounded background */
+    transition: background-color 0.3s;
+  }
+
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    background-color: transparent;
+  }
+
+  .swiper-button-prev:hover .arrow,
+  .swiper-button-next:hover .arrow {
+    background-color: rgba(255, 0, 0, 0.5); /* red color on hover */
+    color: white !important;
+  }
+  .swiper-button-prev:after {
+    font-size: x-large;
+  }
+  .swiper-button-next:after {
+    font-size: x-large;
+  }
+}

@@ -1,0 +1,315 @@
+@media only screen and (max-width: 600px) {
+  /* Styles for screens up to 600px wide (typically mobile devices) */
+  .singleServiceContainer {
+    background: #f3f3f3;
+  }
+  .singleServiceSection {
+    height: 30vh !important;
+  }
+  .singleServeText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    height: 30vh;
+
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    gap: 7rem; */
+  }
+  .singleServeText img {
+    width: 4rem;
+  }
+
+  .singleServeText h2 {
+    width: 9rem;
+    line-height: 1.8rem;
+    font-size: 1.5rem;
+  }
+  .serviceDescWrapper {
+    background: #fff;
+    height: auto;
+  }
+  .serviceDescWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* padding-top: 3rem; */
+    padding-bottom: 2rem;
+    /* gap: 3rem; */
+    flex-direction: column;
+  }
+  .descContent {
+    /* flex: 0.5; */
+    padding: 2rem;
+    /* width: 650px; */
+    /* margin-top: 3rem; */
+  }
+  .descContent h2 {
+    color: #d33333;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .descContent span {
+    font-weight: normal;
+    color: black;
+  }
+
+  .descList {
+    font-weight: normal;
+  }
+  .descList ol {
+    list-style-type: disc;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    line-height: 1.9rem;
+
+    /* margin-top: 2rem; */
+  }
+  .descImage {
+    /* flex: 0.5; */
+    padding: 2rem;
+  }
+  .descImage img {
+    width: 35rem;
+  }
+  .otherServeWrapper {
+  }
+  .otherServeContent {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .otherServeContent p {
+    color: #d33333;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 0.8rem;
+    padding-bottom: 1rem;
+  }
+  .otherServeProject {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    scroll-snap-type: x mandatory; /* Enable snapping to items */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Styles for screens between 601px and 1024px wide (typically tablets) */
+  .singleServiceContainer {
+    background: #f3f3f3;
+  }
+  .singleServeText {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 35vh;
+  }
+  .singleServeText img {
+    width: 7rem;
+  }
+
+  .singleServeText h2 {
+    width: 20rem;
+    line-height: 3.5rem;
+  }
+  .serviceDescWrapper {
+    background: #fff;
+    height: auto;
+  }
+  .serviceDescWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* padding-top: 3rem; */
+    padding-bottom: 2rem;
+    /* gap: 3rem; */
+    flex-direction: column;
+  }
+  .descContent {
+    /* flex: 0.5; */
+    padding: 2rem;
+    /* width: 650px; */
+    /* margin-top: 3rem; */
+  }
+  .descContent h2 {
+    color: #d33333;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .descContent span {
+    font-weight: normal;
+    color: black;
+  }
+
+  .descList {
+    font-weight: normal;
+  }
+  .descList ol {
+    list-style-type: disc;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    line-height: 1.9rem;
+
+    /* margin-top: 2rem; */
+  }
+  .descImage {
+    /* flex: 0.5; */
+    padding: 2rem;
+    /* display: none; */
+  }
+  .descImage img {
+    width: 35rem;
+  }
+  .otherServeWrapper {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .otherServeContent {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  .otherServeContent p {
+    color: #d33333;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .otherServeProject {
+    /* display: flex; */
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    place-items: center;
+    /* column-gap: -14rem; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    row-gap: 2.5rem;
+    column-gap: 1.5rem;
+    /* gap: 1rem; */
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* Styles for screens wider than 1024px (typically desktops and laptops) */
+
+  .singleServiceContainer {
+    background: #f3f3f3;
+  }
+  .singleServeText {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5rem;
+  }
+  .singleServeText img {
+    width: 6rem;
+  }
+
+  .singleServeText h2 {
+    width: 41rem;
+    line-height: 3.5rem;
+  }
+  .serviceDescWrapper {
+    background: #fff;
+    height: auto;
+  }
+  .serviceDescWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* padding-top: 3rem; */
+    padding-bottom: 2rem;
+    gap: 3rem;
+  }
+  .descContent {
+    /* flex: 0.5; */
+    padding: 2rem;
+    width: 650px;
+    margin-top: 3rem;
+  }
+  .descContent h2 {
+    color: #d33333;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .descContent span {
+    font-weight: normal;
+    color: black;
+  }
+
+  .descList {
+    font-weight: normal;
+  }
+  .descList ol {
+    list-style-type: disc;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    line-height: 1.9rem;
+
+    /* margin-top: 2rem; */
+  }
+  .descImage {
+    /* flex: 0.5; */
+    padding: 2rem;
+  }
+  .descImage img {
+    width: 35rem;
+  }
+  .otherServeWrapper {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+  .otherServeContent {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  .otherServeContent p {
+    color: #d33333;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .otherServeProject {
+    /* display: flex; */
+    padding-bottom: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-content: center;
+    place-items: center;
+    /* column-gap: -14rem; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    row-gap: 2.5rem;
+    /* gap: 1rem; */
+  }
+}

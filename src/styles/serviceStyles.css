@@ -1,0 +1,170 @@
+/* Default Grid Layout - Full mode (3 images per row) */
+@media only screen and (min-width: 1025px) {
+  .bottomServices {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* /* gap: 28px; Adjust gap as needed  */
+    row-gap: 7rem;
+    place-content: center;
+    place-items: center;
+  }
+  .serveText h2 {
+    font-size: 3rem;
+  }
+  .serveTextspan span {
+    font-size: 3rem;
+  }
+
+  /* .topServe1::after,
+  .topServe2::after,
+  .topServe3::after {
+    content: "";
+    position: absolute;
+    bottom: 8rem;
+    left: 0;
+    width: calc(92% + 9px);
+    border-bottom: 1px solid #ffebeb;
+    margin-left: 3rem;
+  } */
+}
+
+@media only screen and (max-width: 600px) {
+  .servicesContainer {
+    margin-top: auto;
+  }
+
+  .serveText h2 {
+    font-size: 2rem !important;
+  }
+  .topServices {
+    flex-direction: column;
+  }
+  .topServe1 {
+    width: auto !important;
+  }
+
+  .topServe2 {
+    width: auto !important;
+  }
+
+  .topServe3 {
+    width: auto !important;
+  }
+
+  .bottomServices {
+    /* flex-direction: column; */
+    display: block;
+  }
+  .topServe4 {
+    width: auto !important;
+  }
+
+  .topServe5 {
+    width: auto !important;
+  }
+
+  .topServe6 {
+    width: auto !important;
+  }
+
+  .topServe1,
+  .topServe2,
+  .topServe3,
+  .topServe4,
+  .topServe5 {
+    margin-bottom: 1rem;
+  }
+
+  .topServe1 img,
+  .topServe2 img,
+  .topServe3 img,
+  .topServe4 img,
+  .topServe5 img,
+  .topServe6 img {
+    width: 6rem !important;
+  }
+  .borderDiv {
+    padding: 15px;
+    border-bottom: 1px solid #ffebeb;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .topServe6 {
+    border: none;
+  }
+}
+
+/* Tablet Mode design  */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  .serveText h2 {
+    font-size: 3rem;
+  }
+  .serveTextspan span {
+    font-size: 3rem;
+  }
+  /* .servicesWrapper h2 {
+    font-size: unset !important;
+  } */
+  .topServe1 {
+    display: flex;
+  }
+  .topServe2 {
+    display: flex;
+  }
+  .topServe3 {
+    display: flex;
+  }
+  .bottomServices {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr) !important;
+    /* margin-left: 4rem;
+    margin-right: 2rem; */
+    place-content: center;
+    place-items: center;
+  }
+  .bottomServe1 {
+    display: flex;
+  }
+
+  .bottomServe2 {
+    display: flex;
+  }
+  .bottomServe3 {
+    display: flex;
+  }
+  .topServe1,
+  .topServe2,
+  .topServe3,
+  .bottomServe1 {
+    padding-bottom: 5rem;
+  }
+
+  .topServe1::after,
+  .topServe2::after {
+    /* content: "";
+    position: absolute;
+    bottom: 20rem;
+    left: 0;
+    border-bottom: 1px solid #ddd;
+    width: 85%;
+    margin-left: 3rem; */
+  }
+
+  .topServe3::after,
+  .topServe4::after {
+    /* content: "";
+    position: absolute;
+    bottom: -8rem;
+    left: 0;
+    /* width: calc(100% + 24px)
+    border-bottom: 1px solid #ddd;
+    width: 85%;
+    margin-left: 3rem; */
+  }
+
+  /* Remove line under the last item in each row */
+  .topServe5::after,
+  .topServe6::after {
+    display: none; /* Hide line under the last item in the last row */
+  }
+}
